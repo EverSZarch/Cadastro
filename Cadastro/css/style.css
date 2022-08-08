@@ -1,0 +1,38 @@
+
+body{
+    background-color: rgb(28, 33, 33);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(215, 201, 150);
+}
+
+main{
+    text-align: center;
+       
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    padding: 10px;
+    margin-top: 15px;
+    color: rgb(28, 33, 33);
+    border: 2px solid rgb(215, 201, 150);
+    width: 80%;
+}
+
+button{
+    color: rgb(84, 87, 87);
+    background-color: rgb(215, 201, 150);
+    border: 1px solid rgb(126, 111, 58);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+button:hover{
+    background-color:rgb(84, 87, 87);
+    color: rgb(215, 201, 150);
+}
